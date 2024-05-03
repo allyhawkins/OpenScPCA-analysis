@@ -82,6 +82,7 @@ nav:
       - getting-started/accessing-resources/getting-access-to-compute.md
   - Technical setup:           # Fork/clone, local environment setup
     - technical-setup/index.md
+    - technical-setup/install-wsl-2.md
     - technical-setup/install-a-git-client.md
     - technical-setup/fork-the-repo.md
     - technical-setup/clone-the-repo.md
@@ -90,7 +91,6 @@ nav:
       - technical-setup/environment-setup/setup-conda.md
       - technical-setup/environment-setup/setup-precommit.md
       - technical-setup/environment-setup/configure-aws-cli.md
-      - technical-setup/environment-setup/install-docker.md
       - technical-setup/environment-setup/install-r-rstudio.md
   - Tools for communication:   # Slack, issues, discussions
     - communications-tools/index.md
@@ -106,6 +106,7 @@ nav:
       - contributing-to-analyses/analysis-modules/creating-a-module.md
       - contributing-to-analyses/analysis-modules/running-a-module.md
       - contributing-to-analyses/analysis-modules/documenting-analysis.md
+      - contributing-to-analyses/analysis-modules/modifying-a-module.md
       - contributing-to-analyses/analysis-modules/notebook-structure.md
       - contributing-to-analyses/analysis-modules/script-structure.md
     - Determining analysis requirements:
@@ -128,6 +129,7 @@ nav:
       - contributing-to-analyses/creating-pull-requests/file-pull-request.md
     - Code review and merging your pull request:
       - contributing-to-analyses/pr-review-and-merge/index.md
+      - contributing-to-analyses/pr-review-and-merge/respond-to-review.md
   - Software platforms:            # AWS (S3 & LSfR), Docker, etc
     - software-platforms/index.md
     - Amazon Web Services (AWS):
@@ -135,9 +137,13 @@ nav:
       - software-platforms/aws/joining-aws.md
       - software-platforms/aws/working-with-s3-buckets.md
       - software-platforms/aws/creating-vcs.md
+      - software-platforms/aws/accessing-vcs.md
       - software-platforms/aws/working-with-volumes.md
       - software-platforms/aws/starting-development-on-lsfr.md
       - software-platforms/aws/working-with-snapshots.md
+    - Docker:
+      - software-platforms/docker/index.md
+      - software-platforms/docker/docker-images.md
     - Additional project tools:
       - software-platforms/general-tools/index.md
       - software-platforms/general-tools/writing-in-markdown.md
