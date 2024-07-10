@@ -27,6 +27,11 @@ RUN apt-get -y update &&  \
   wget \
   && rm -rf /var/lib/apt/lists/*
 
+# Install AWS CLI
+RUN curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+RUN unzip awscliv2.zip
+RUN ./aws/install
+
 # Install miniconda
 # adapted from https://github.com/ContinuumIO/docker-images/blob/main/miniconda3/debian/Dockerfile
 RUN curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh \
